@@ -69,6 +69,22 @@
     color: #fff;
 } 
 
+.ms_btn:hover {
+    background-color: #fff;
+    border: var(--ms_primary_color) 1px solid;
+    color: var(--ms_primary_color);
+} 
+
 #footer-top {
     background-color: #39546D;
+}
+
+.ms_footer_a {
+    text-decoration: none;
+    color: var(--ms_primary_color);
+}
+
+.ms_footer_a:hover {
+    text-decoration: underline;
+    color: var(--ms_primary_color);
 }
