@@ -28,6 +28,23 @@
     max-width: 150px;
 }
 
+.ms_overlay {
+    background-color: rgba(26, 188, 156, 0.5);
+    display: none;
+}
+
+.card:hover .ms_overlay {
+    display: block;;
+}
+
+.ms_overlay i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+}
+
 .ms_card_bg1 {
     background-color: #BA4B63;
 }
@@ -88,3 +105,10 @@
     text-decoration: underline;
     color: var(--ms_primary_color);
 }
+
+@media (max-width: 768px) {
+    html {
+      font-size: 0.75rem;
+    }
+  }
+
