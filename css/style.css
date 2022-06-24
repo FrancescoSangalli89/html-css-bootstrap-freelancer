@@ -1,6 +1,11 @@
+:root {
+    --ms_primary_color: #1ABC9C;
+    --ms_background_color: #2C3D50;
+}
+
 .debug .box {
     background-color: greenyellow;
-    height: 50px;
+    min-height: 200px;
     width: 100%;
     border: #fff 1px solid;
 }
@@ -11,13 +16,13 @@
 
 }
 
-.my_header {
-    background-color: #2C3D50;
+.my_navbar {
+    background-color: var(--ms_background_color);
 }
 
 #jumbotron,
 #about {
-    background-color: #1ABC9C;
+    background-color: var(--ms_primary_color);
 }
 
 .my_btn {
