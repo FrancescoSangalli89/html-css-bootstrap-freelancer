@@ -24,6 +24,45 @@
     background-color: var(--ms_primary_color);
 }
 
+.ms_img_container {
+    max-width: 150px;
+}
+
+.ms_card_bg1 {
+    background-color: #BA4B63;
+}
+
+.ms_card_bg2 {
+    background-color: #1DA4B6;
+}
+
+.ms_card_bg3 {
+    background-color: #150F0F;
+}
+
+.ms_card_bg4 {
+    background-color: #1F83C1;
+}
+
+.ms_card_bg5 {
+    background-color: #0F38B5;
+}
+
+.ms_card_bg6 {
+    background-color: #CCB2A3;
+}
+
+.ms_btn_outline {
+    color: #fff;
+    border: #fff 1px solid;
+}
+
+.ms_btn_outline:hover {
+    color: var(--ms_primary_color);
+    border: var(--ms_primary_color) 1px solid;
+    background-color: #fff;
+}
+
 .ms_btn {
     background-color: var(--ms_primary_color);
     border: var(--ms_primary_color) 1px solid;
